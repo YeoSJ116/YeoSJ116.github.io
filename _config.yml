@@ -1,17 +1,20 @@
-title: John Smith
-description: My Personal Blog
-author: John Smith
-logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/codeasashu
-about: Freelance developer
+title       : YeoSJ116's Blog
+description : My Personal Blog
 
-baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
-url: "https://codeasashu.github.io/hcz-jekyll-blog"
+author  : YeoSJ116
+logo    : 
+github  : https://github.com/YeoSJ116
+about   : Beginner developer (Korean Student)
+locale  : "ko_KR" #ICU Locale
+
+url         : "https://YeoSJ116.github.io/"
+baseurl     : ""
+repository  :
 
 allowsearch: true
 
-disqus_shortname: aboutashu
-google_analytics: UA-72862926-1
+disqus_shortname: 
+google_analytics: 
 
 share:
   twitter_username: \#
