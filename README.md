@@ -10,5 +10,5 @@ I am sorry to my horrible English skills, but I would appreciate for tell me a p
 If you are more familiar with Korean, come to the Korean blog.
 
 # References
-* I based this web platform.
+* I based this web platform: 
 [HCZ Material theme](https://github.com/codeasashu/hcz-jekyll-blog)
