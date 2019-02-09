@@ -1,7 +1,5 @@
 .main.outer{padding-top: 50px;}
 .header-panel.shadow-z-2 {
-    background: -moz-linear-gradient(top, #3CB371 0%, #30CCA4 100%);
-    background: -webkit-linear-gradient(top, #3CB371 0%, #30CCA4 100%);
     background: linear-gradient(to right, #3CB371 0%, #30CCA4 100%);  
     padding: 50px 0 50px 0;
     width: 100%;
@@ -52,20 +50,20 @@ p.info a {
     margin: 20px 0 0;
 }
 .icon {
-    background: rgb(255, 255, 255);
+    background: transparent;
     border-radius: 100%;
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    color: transparent;
+    color: white;
     padding: 5px;
     width: 30px;
     height: 30px;
     display: inline-block;
 }
 .icon:hover {
-    color: rgb(255, 255, 255);
-    background: transparent;
+    color: transparent;
+    background: white;
 }
 .menu ul li {
     list-style: none;
