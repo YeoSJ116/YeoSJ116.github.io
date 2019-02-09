@@ -1,11 +1,6 @@
-color-var{
-    --major-bg-color: #3CB371;
-    --sub-bg-color: #28CBAF;
-}
-
 .main.outer{padding-top: 50px;}
 .header-panel.shadow-z-2 {
-    background: linear-gradient(to right,  var(--major-bg-color) 30%, var(--sub-bg-color) 100%);  
+    background: linear-gradient(to right,  #3CB371 30%, #28CBAF 100%);  
     padding: 50px 0 50px 0;
     width: 100%;
 }
@@ -67,7 +62,7 @@ p.info a {
     display: inline-block;
 }
 .icon:hover {
-    color: var(--major-bg-color);
+    color: #3CB371;
     background: white;
 }
 .menu ul li {
