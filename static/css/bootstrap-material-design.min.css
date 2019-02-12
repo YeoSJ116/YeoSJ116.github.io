@@ -113,7 +113,7 @@ body .container .jumbotron-primary,
 body .container .well-primary,
 body .container-fluid .jumbotron-primary,
 body .container-fluid .well-primary{
-    background-color:#009688
+    background-color: linear-gradient(to right,  #3CB371 30%, #28CBAF 100%);
 }
 
 body .container .jumbotron-success,
