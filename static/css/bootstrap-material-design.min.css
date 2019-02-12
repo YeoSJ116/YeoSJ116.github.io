@@ -33,7 +33,7 @@ h5,h6{
 
 a,a:focus,a:hover{
     color:#3CB371;
-    background: #6473ff;
+    background: white;
 }
 
 a .material-icons,a:focus .material-icons,a:hover .material-icons{
