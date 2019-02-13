@@ -1,11 +1,10 @@
 [
   {
-    "icon": "fa-github",
+    "icon": "fa-github-alt",
     "link": "https://github.com/YeoSJ116/YeoSJ116.github.io"
   },
   {
     "icon": "fa-feed",
-    "link": "/feed.xml",
-    "target": _blank
+    "link": "/feed.xml"
   }
 ]
