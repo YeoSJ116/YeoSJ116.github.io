@@ -10,8 +10,8 @@
     font-size:16px;
 }
 .logo-img {
-    width:56px;
-    height:56px;
+    width:85px;
+    height:85px;
     border-radius:60px;
     margin:0 auto;
 }
@@ -159,8 +159,12 @@ span.tags {
 .navbar-toggle i {
     color:#BCCCBF;
 }
-.menu .list-group-item-heading,.menu .list-group-item-text {
-    color:#fff!important;
+.menu .list-group-item-heading{
+    color:white!important;
+    margin-top: 10px;
+}
+.menu .list-group-item-text {
+    color:white!important;
 }
 @media (max-width:768px) {
     #portfolio-filter {
