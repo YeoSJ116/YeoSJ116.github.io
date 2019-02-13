@@ -1,18 +1,10 @@
 [
   {
-    "icon": "fa-facebook",
-    "link": ""
+    "icon": "fa-github",
+    "link": "https://github.com/YeoSJ116/YeoSJ116.github.io"
   },
   {
-    "icon": "fa-twitter",
-    "link": ""
-  },
-  {
-    "icon": "fa-linkedin",
-    "link": ""
-  },
-  {
-    "icon": "fa-stack-exchange",
-    "link": ""
+    "icon": "fa-feed",
+    "link": "https://yeosj116.github.io/YeoSJ116.github.io/feed.xml"
   }
 ]
