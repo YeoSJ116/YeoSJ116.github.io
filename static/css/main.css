@@ -160,7 +160,7 @@ span.tags {
     color:#BCCCBF;
 }
 .menu .list-group-item-heading{
-    margin-top: 10px;
+    margin-top: 10px!important;
     color:white!important;
 }
 .menu .list-group-item-text {
