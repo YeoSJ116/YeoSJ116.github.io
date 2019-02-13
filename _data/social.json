@@ -5,6 +5,7 @@
   },
   {
     "icon": "fa-feed",
-    "link": "https://yeosj116.github.io/YeoSJ116.github.io/feed.xml"
+    "link": "/feed.xml",
+    "target": _blank
   }
 ]
