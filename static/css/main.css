@@ -1,6 +1,7 @@
-.wordArt h4{
+.wordArt h5{
     margin: 0px;
-    line-height: 14px;
+    line-height: 17px;
+    font-family: Lucida Console;
 }
 
 .main.outer {
