@@ -1,14 +1,14 @@
 [
 	{
 		"name": "Arduino UNO Keyboard program",
-		"image": "sparrowKBD.png",
+		"image": "sparrowKBD",
 		"url": "https://github.com/YeoSJ116/Simple_Arduino_UNO_Key_Mapping-EN",
 		"date": "2017. 11. 1.",
 		"tags": ["Arduino","UNO","Keyboard","C#"]
 	},
 	{
 		"name": "Arduino dot matrix display program",
-		"image": "placeholder.jpg",
+		"image": "null",
 		"url": "#",
 		"date": "2018. 3. 12.",
 		"tags": ["Arduino","Display","C#"]
