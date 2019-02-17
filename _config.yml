@@ -8,7 +8,7 @@ about   : Beginner developer (Korean Student)
 locale  : "ko_KR" #ICU Locale
 
 url         : "https://YeoSJ116.github.io/"
-baseurl     : ""
+baseurl     : "https://YeoSJ116.github.io/"
 repository  : ""
 
 allowsearch: true
