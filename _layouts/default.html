@@ -7,10 +7,12 @@
       {% include css.html %}
   </head>
 
-  <body class="home overflow-hidden">
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     {% include header.html %}
     {% include main.html %}
+    <!-- build:js -->
     {% include js.html %}
-    {% include analytics.html %}
+    <!-- endbuild -->
   </body>
 </html>
