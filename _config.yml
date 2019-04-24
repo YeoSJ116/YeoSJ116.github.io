@@ -14,7 +14,7 @@ repository  : ""
 allowsearch: true
 
 disqus_shortname: 
-google_analytics: UA-138900801-1
+google_analytics: 'UA-138900801-1'
 
 enableTags: true
 tagarray: []
