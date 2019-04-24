@@ -1,4 +1,4 @@
-//Google Analytics: If you using this code you should change "UA-138900801-1" to your site code
+//Google Analytics: you can set your web id in "_config.yml" file
 (function(i,s,o,g,r,a,m){
 	i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
