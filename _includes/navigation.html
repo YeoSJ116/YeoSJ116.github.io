@@ -9,8 +9,11 @@
 	{% assign linkurl = i.url | prepend: site.baseurl %}
 	{% endif %}
 	{% assign target = i.target %}
-    {% unless target %} {% assign target = '_self' %} {% endunless %}
-	{% if pageurl == menuurl or page.layout == i.layout %} {% assign current = 'current-menu-item' %} {% endif %}
-	<a href="{{ linkurl }}" target="{{ target }}" class="mdl-layout__tab {{ current }}"><i class="fa {{ i.icon }}">
-	{{category}} {{ i.text }}</a>
+    {% unless target %}
+    	{% assign target = '_self' %}
+    {% endunless %}
+	{% if pageurl == menuurl or page.layout == i.layout %}
+		{% assign current = 'is-active' %}
+	{% endif %}
+	<a href="{{ linkurl }}" target="{{ target }}" class="mdl-layout__tab {{ current }}">{{category}} {{ i.text }}</a>
 {% endfor %}

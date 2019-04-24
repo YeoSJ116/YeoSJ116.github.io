@@ -2,16 +2,13 @@
   {
     "text": "Home",
     "url": "#",
-    "icon": "fa-home",
   },
   {
     "text": "Projects",
     "url": "/projects",
-    "icon": "fa-comments"
   },
   {
     "text": "Running",
     "url": "/running",
-    "icon": "fa-desktop"
   }
 ]
