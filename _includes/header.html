@@ -6,11 +6,6 @@
   <div class="mdl-layout--large-screen-only mdl-layout__header-row"/>
 
   <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-    {% if page.categories.size > 0 %}
-    {% for category in page.categories %}
-    <a href="{{site.baseurl }}/category/{{category}}" class="mdl-layout__tab">{{category}}</a>
-    {% if forloop.last == false %},{% endif %}
-    {% endfor %}
-    {% endif %}
+    {% include navigation.html %}
   </div>
 </header>
