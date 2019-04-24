@@ -16,11 +16,6 @@ allowsearch: true
 disqus_shortname: 
 google_analytics: 
 
-share:
-  twitter_username: \#
-  fb_appid: 000000000000
-
-
 enableTags: true
 tagarray: []
 
