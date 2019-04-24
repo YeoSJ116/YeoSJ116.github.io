@@ -5,13 +5,13 @@
     "icon": "fa-home",
   },
   {
-    "text": "About",
-    "url": "/about",
+    "text": "Projects",
+    "url": "/projects",
     "icon": "fa-comments"
   },
   {
-    "text": "Projects",
-    "url": "/projects",
+    "text": "Running",
+    "url": "/running",
     "icon": "fa-desktop"
   }
 ]
