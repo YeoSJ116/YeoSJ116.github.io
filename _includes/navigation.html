@@ -15,5 +15,5 @@
 {% if pageurl == menuurl or page.layout == i.layout %}
 	{% assign current = 'is-active' %}
 {% endif %}
-<a href="{{ linkurl }}" target="{{ target }}" class="mdl-layout__tab {{ current }}">{{category}} {{ i.text }}</a>
+<a href="{{ linkurl }}" target="{{ target }}" class="mdl-layout__tab {{ current }}">{{ i.text }}</a>
 {% endfor %}
