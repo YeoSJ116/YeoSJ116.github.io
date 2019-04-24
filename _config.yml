@@ -1,0 +1,31 @@
+title       : YeoSJ116's Blog
+description : My Personal Blog
+
+author  : YeoSJ116
+logo    : /YeoSJ116.github.io/static/img/avatar.png
+github  : https://github.com/YeoSJ116
+about   : Beginner developer (Korean Student)
+locale  : "ko_KR" #ICU Locale
+
+url         : "https://YeoSJ116.github.io/"
+baseurl     : "https://YeoSJ116.github.io/"
+repository  : ""
+
+allowsearch: true
+
+disqus_shortname: 
+google_analytics: 
+
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: []
+
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]
