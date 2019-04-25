@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-<article class="post">
-
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
   <div class="post-content">
     {{ content }}
-
     <div class="projects row">
     {% include project_tags.html %}
     {% for i in site.data.projects %}
@@ -40,5 +38,4 @@ layout: default
     {% endfor %}
     </div>
   </div>
-
-</article>
+</section>
