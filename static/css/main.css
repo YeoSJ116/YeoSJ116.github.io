@@ -212,8 +212,8 @@ html, body {
   z-index: 99;
 }
 
-.wordArt{
-    margin: 0px;
-    line-height: 13px;
-    font-family: Lucida Console;
+.wordArt h5{
+  margin: 0px;
+  line-height: 13px;
+  font-family: Lucida Console;
 }
