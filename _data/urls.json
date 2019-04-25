@@ -2,17 +2,21 @@
   {
     "text": "Home",
     "url": "/#",
+    "layout": "home",
   },
   {
     "text": "Project",
     "url": "/project",
+    "layout": "project",
   },
   {
     "text": "Application",
     "url": "/application",
+    "layout": "application",
   },
   {
     "text": "Spec",
     "url": "/spec",
+    "layout": "spec",
   }
 ]
