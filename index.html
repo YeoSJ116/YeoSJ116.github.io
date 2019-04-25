@@ -2,61 +2,78 @@
 layout: default
 title: Home
 ---
-<div class="well">
-    <div class="list-group">
-      {% for post in paginator.posts %}
-      <div class="list-group-item">
-        <div class="row-action-primary">
-          <i class="fa fa-sticky-note"></i>
-        </div>
-        <div class="row-content">
-          <div class="least-content">{{ post.date | date_to_string }}</div>
-          <h4 class="list-group-item-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+  <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+    <div class="mdl-card__supporting-text">
+      <h4>YeoSJ116</h4>
+      호기심이 많은 대학생 개발자 입니다.
+    </div>
+    <div class="mdl-card__actions">
+      <a href="#" class="mdl-button">Read my history</a>
+    </div>
+  </div>
+</section>
 
-          <p class="list-group-item-text">{{ post.content | strip_html | truncatewords: 20 }}</p>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+  <div class="mdl-card mdl-cell mdl-cell--12-col">
+    <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+      <h4 class="mdl-cell mdl-cell--12-col">Details</h4><div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+        <div class="section__circle-container__circle mdl-color--primary">
         </div>
       </div>
-      <div class="list-group-separator"></div>
-      {% endfor %}
+      <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+        <h5>Lorem ipsum dolor sit amet</h5>
+        Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
+      </div>
     </div>
-   
+  <div class="mdl-card__actions">
+    <a href="#" class="mdl-button">Read our features</a>
+  </div>
+</div>
 
-    <!-- Pagination links -->
-    {% if paginator.total_pages > 1 %}
-    <ul class="pager">
-      {% if paginator.previous_page %}
-        <li class="previous">
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
-        </li>
-      {% else %}
-        <li class="previous disabled"><span aria-hidden="true">&laquo;</span></li>
-      {% endif %}
-
-      <li><a href="/">First</a></li>
-
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <li class="active">
-             <a>{{ page }}<span class="sr-only">(current)</span></a>
-          </li>
-        {% elsif page == 1 %}
-          <li><a href="/">{{ page }}</a></li>
-        {% else %}
-          <li>
-            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-
-      <li><a href="/page{{ paginator.total_pages }}/">Last</a></li>
-
-      {% if paginator.next_page %}
-        <li class="next">
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
-        </li>
-      {% else %}
-        <li class="next disabled"><span>&raquo;</span></li>
-      {% endif %}
-    </ul>
-    {% endif %}
-</div><!-- end #home -->
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn2">
+  <i class="material-icons">more_vert</i>
+</button>
+<ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn2">
+  <li class="mdl-menu__item">Lorem</li>
+  <li class="mdl-menu__item" disabled>Ipsum</li>
+  <li class="mdl-menu__item">Dolor</li>
+</ul>
+ </section>
+ <!-- 구역 3 -->
+ <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+<div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__supporting-text">
+ <h4>Technology</h4>
+ Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse. Pariatur occaecat nisi laboris tempor laboris eiusmod qui id Lorem esse commodo in. Exercitation aute dolore deserunt culpa consequat elit labore incididunt elit anim.
+  </div>
+  <div class="mdl-card__actions">
+ <a href="#" class="mdl-button">Read our features</a>
+  </div>
+</div>
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn3">
+  <i class="material-icons">more_vert</i>
+</button>
+<ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn3">
+  <li class="mdl-menu__item">Lorem</li>
+  <li class="mdl-menu__item" disabled>Ipsum</li>
+  <li class="mdl-menu__item">Dolor</li>
+</ul>
+ </section>
+<!-- 구역 3 -->
+<section class="section--footer mdl-color--white mdl-grid">
+    <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+    <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
+</div>
+<div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+  <h5>Lorem ipsum dolor sit amet</h5>
+  Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
+</div>
+<div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+  <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
+</div>
+<div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+  <h5>Lorem ipsum dolor sit amet</h5>
+  Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
+</div>
+</section><!-- end #home -->
