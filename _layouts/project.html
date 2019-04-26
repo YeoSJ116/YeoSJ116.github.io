@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<!-- start: Tag generator -->
+<!-- start: Project tag -->
 {% include project_tags.html %}
-<!-- end: Tag generator -->
+<!-- end: Project tag -->
 
-<!-- start: Project card generator -->
+<!-- start: Project card -->
 <section class="section--center mdl-grid mdl-grid--no-spacing">
     <div class="mdl-card mdl-cell mdl-cell--12-col">
     {% for i in site.data.projects %}
@@ -15,25 +15,22 @@ layout: default
         <a href="/static/projects/{{ i.image }}.png" class="thickbox">
             <div class="project-img bordered" style="background-image: url('/static/projects/{{ i.image }}.png');"></div>
         </a>
-        {% if i.url %} <a href="{{ i.url }}"> {% endif %}
-            <h4 class="mdl-cell mdl-cell--12-col">{{ i.name }}</h4>
-                <div>
-                    {% if i.tags %} 
-                    {% for j in i.tags %}
-                    <span data-tag="{{ j | downcase }}">{{ j }}</span>
-                    {% endfor %}
-                    {% endif %}
-                </div>
-            </a>
-                <div id="project-footer"> 
-                    <span>{{ i.date }}</span>
-                </div>
+        <h4 href="{{ i.url }}" class="mdl-cell mdl-cell--12-col">{{ i.name }}</h4>
+            {% if i.tags %} 
+            {% for j in i.tags %}
+            <span data-tag="{{ j | downcase }}">{{ j }}</span>
+            {% endfor %}
+            {% endif %}
+            </div>
+            <div id="project-footer"> 
+                <span>{{ i.date }}</span>
             </div>
         </div>
-    </div>
-    {% endfor %}
-    <!-- end: Project card generator -->
+        {% endfor %}
     </div>
 </section>
+<!-- end: Project card -->
 
+<!-- start: Project tag functions -->
 <script src="{{ site.baseurl }}/static/js/projects.js"></script>
+<!-- start: Project tag functions -->
