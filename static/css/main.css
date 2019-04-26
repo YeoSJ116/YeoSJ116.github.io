@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright 2015 Google Inc. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -215,8 +215,19 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
+
+/*
+ * Custom style
+ */
 .wordArt h6{
   margin: 0px;
   line-height: 17px;
   font-family: Lucida Console;
+}
+
+.tagBlock{
+  position:relative;
+  min-height:1px;
+  padding-left:15px;
+  padding-right:15px
 }
