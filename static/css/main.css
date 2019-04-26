@@ -211,7 +211,7 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
-.wordArt h5{
+.wordArt h6{
   margin: 0px;
   line-height: 17px;
   font-family: Lucida Console;
