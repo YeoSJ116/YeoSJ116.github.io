@@ -9,10 +9,9 @@ layout: default
 <section class="section--center mdl-grid mdl-grid--no-spacing">
     <div class="mdl-card mdl-cell mdl-cell--12-col">
     {% for i in site.data.projects %}
-    <div data-tags='{{ i.tags | jsonify | downcase }}' class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-
-    <div class="project-item col-md-4 col-sm-6 col-xs-12 mdl-shadow--2dp" >
-        <a href="/static/projects/{{ i.image }}.png" class="thickbox">
+    <div data-tags='{{ i.tags | jsonify | downcase }}' class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+        <div class="project-item col-md-4 col-sm-6 col-xs-12 mdl-shadow--2dp" >
+            <a href="/static/projects/{{ i.image }}.png" class="thickbox">
             <div class="project-img bordered" style="background-image: url('/static/projects/{{ i.image }}.png');"></div>
         </a>
         <h4 href="{{ i.url }}" class="mdl-cell mdl-cell--12-col">{{ i.name }}</h4>
@@ -26,6 +25,7 @@ layout: default
                 <span>{{ i.date }}</span>
             </div>
         </div>
+    </div>
         {% endfor %}
     </div>
 </section>
