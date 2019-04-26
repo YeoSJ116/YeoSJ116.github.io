@@ -1,6 +1,6 @@
 ---
 layout: spec
-title: Application
+title: Spec
 permalink: /spec/
 ---
 
