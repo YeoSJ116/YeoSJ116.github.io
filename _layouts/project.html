@@ -2,10 +2,10 @@
 layout: default
 ---
 {% include project_tags.html %}
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+<section class="section--center mdl-grid mdl-grid--no-spacing">
     <div class="projects row">
         {% for i in site.data.projects %}
-        <div class="project-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
+        <div class="project-item col-md-4 col-sm-6 col-xs-12 mdl-shadow--2dp" data-tags='{{ i.tags | jsonify | downcase }}'>
             <div class="well project-outer">
                 <div class="project-inner">
                     <a href="/static/projects/{{ i.image }}.png" class="thickbox">
