@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/static/css/projects.css">
 
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-    <h4 class="mdl-cell mdl-cell--12-col">Tag filter</h4>
     <!---->
     <div id="tag-filter" class="tagBlock tag-group">
+        <h4 class="mdl-cell mdl-cell--12-col">Tag filter</h4>
         <span class="label tag-filter tag-cloud all" style="color:white; background-color:#ff5200">Reset</span>
         {% assign tagarray = site.tagarray %}
         {% for project in site.data.projects %}
