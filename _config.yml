@@ -11,11 +11,10 @@ url         : "https://YeoSJ116.github.io/"
 baseurl     : "https://YeoSJ116.github.io"
 repository  : ""
 
-allowsearch: true
-
 disqus_shortname: 
 google_analytics: UA-138900801-1
 
+allowsearch: true
 enableTags: true
 tagarray: []
 
