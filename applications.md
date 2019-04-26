@@ -1,5 +1,5 @@
 ---
-layout: Application
+layout: application
 title: Application
 permalink: /application/
 ---
