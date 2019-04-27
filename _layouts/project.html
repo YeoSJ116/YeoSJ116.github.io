@@ -6,8 +6,8 @@ layout: default
 <!-- end: Project tag -->
 
 <!-- start: Project card -->
-<section class="mdl-cell mdl-cell--12-col">
-    <div class="section--center mdl-grid mdl-grid--no-spacing">
+<section class="section--center mdl-cell--12-col mdl-grid mdl-grid--no-spacing">
+    <div class="mdl-grid">
     {% for i in site.data.projects %}
 
         <div data-tags='{{ i.tags | jsonify | downcase }}' class="mdl-cell mdl-cell--6-col-desktop mdl-cell--6-col-tablet mdl-cell--12-col-phone mdl-shadow--2dp">
