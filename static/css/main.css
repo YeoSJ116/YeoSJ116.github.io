@@ -222,7 +222,7 @@ html, body {
 .wordArt h6{
   font-size: 5px;
   margin: 0px;
-  line-height: 9px;
+  line-height: 9dpx;
   font-family: Lucida Console;
 }
 
