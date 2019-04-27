@@ -219,7 +219,8 @@ html, body {
 /*
  * Custom style
  */
-.wordArt h7{
+.wordArt h6{
+  font-size: 5pt;
   margin: 0px;
   line-height: 17px;
   font-family: Lucida Console;
