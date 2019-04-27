@@ -15,7 +15,7 @@ layout: default
                 <image href="{{ site.baseurl }}/static/projects/{{ i.image }}.png" src="{{ site.baseurl }}/static/projects/{{ i.image }}.png" style="width: auto; height: 100%; margin-top: 10px"/>
             </div>
             <div class="project-img bordered" );"></div>
-            <a href="{{ i.url }}"><h4 style="margin: 17px 0px;">{{ i.name }}</h4></a>
+            <a href="{{ i.url }}"><h4 style="margin: 13px 0px;">{{ i.name }}</h4></a>
             {% if i.tags %} 
             {% for j in i.tags %}
             <span data-tag="{{ j | downcase }}">{{ j }}</span>
