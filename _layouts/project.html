@@ -10,18 +10,20 @@ layout: default
     <div class="mdl-grid">
     {% for i in site.data.projects %}
 
-        <div data-tags='{{ i.tags | jsonify | downcase }}' class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone mdl-shadow--2dp">
-            <div href="/static/projects/{{ i.image }}.png" style="background-image: url('/static/projects/{{ i.image }}.png')" class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing"></div>
-                <div class="project-img bordered" );"></div>
-                <a href="{{ i.url }}"><h4>{{ i.name }}</h4></a>
-                {% if i.tags %} 
-                {% for j in i.tags %}
-                <span data-tag="{{ j | downcase }}">{{ j }}</span>
-                {% endfor %}
-                {% endif %}
-                <div id="project-footer"> 
-                    <span>{{ i.date }}</span>
-                </div>
+        <div data-tags='{{ i.tags | jsonify | downcase }}' class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone mdl-shadow--2dp" style="padding: 0px 10px;">
+            <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="height: 225px; width: 400px">
+                <image href="/static/projects/{{ i.image }}.png" style="background-image: url('/static/projects/{{ i.image }}.png')"/>
+            </div>
+            <div class="project-img bordered" );"></div>
+            <a href="{{ i.url }}"><h4>{{ i.name }}</h4></a>
+            {% if i.tags %} 
+            {% for j in i.tags %}
+            <span data-tag="{{ j | downcase }}">{{ j }}</span>
+            {% endfor %}
+            {% endif %}
+            <div id="project-footer"> 
+            <span>{{ i.date }}</span>
+        </div>
         </div>
         {% endfor %}
     </div>
