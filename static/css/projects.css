@@ -57,7 +57,10 @@
  * Project Tags Block
  * //////////////////////////////////
  */
-.tag-filter {
+.tag-group {
+  margin: 0 0 25px 0;
+}
+.tag-cloud {
   margin: 0 2px;
   cursor: pointer;
 }
