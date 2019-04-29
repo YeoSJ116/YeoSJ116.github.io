@@ -27,7 +27,7 @@
 
             {% assign taglist = tags | split: '|' | sort %}
             {% for tag in taglist %}
-                <span class="label tag-filter tag-cloud" data-tag="{{ tag | downcase }}">{{ tag }}</span>
+                <span class="tag-filter tag-cloud" data-tag="{{ tag | downcase }}">{{ tag }}</span>
             {% endfor %}
             </div>
         {% endif %}
