@@ -31,27 +31,11 @@ title: Home
   </ul>
 </section>
 
- <!-- 새로운 프로젝트 및 변동사항을 알립니다. -->
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-  <div class="mdl-card mdl-cell mdl-cell--12-col">
-    <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-      <h4 class="mdl-cell mdl-cell--12-col">Project news</h4><div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-        <div class="section__circle-container__circle mdl-color--primary">
-          A
-        </div>
-      </div>
-      <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-        <h5>Title in here</h5>
-        Sub title in here <a href="#">Link in here</a>.
-      </div>
-    </div>
-    <div class="mdl-card__actions">
-      <a href="/project" class="mdl-button">See more projects</a>
-    </div>
-  </div>
-</section>
+<!-- 새로운 프로젝트 및 변동사항을 알립니다. -->
+{% include project_news.html %}
+
 <!-- 최근 나의 활동들 -->
-{% include recentActivity.html %}
+{% include recent_activity.html %}
 
 <!-- 대표 서비스 -->
 <section class="section--footer mdl-color--white mdl-grid">
