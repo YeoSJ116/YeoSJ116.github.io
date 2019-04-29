@@ -8,7 +8,7 @@ layout: default
 <!-- start: Project card -->
 <section class="section--center mdl-cell--12-col mdl-grid mdl-grid--no-spacing" style="width: 100%">
     <!-- max-width: 890px; -->
-    <div class="mdl-grid" style="padding: 8px 0px">
+    <div class="mdl-grid" style="padding: 8px 0px; margin: 0px -8px">
     {% for i in site.data.projects %}
 
         <div data-tags='{{ i.tags | jsonify | downcase }}' class="project-item mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone mdl-shadow--2dp" style="padding: 0px 10px;">
