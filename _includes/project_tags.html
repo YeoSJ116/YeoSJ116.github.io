@@ -1,12 +1,7 @@
-<link rel="stylesheet" href="{{ site.baseurl }}/static/css/projects.css">
-
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" style="margin-bottom: 10px;">
-    <div class="mdl-card mdl-cell mdl-cell--12-col" style="min-height: 0;">
-        <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin-top: 23px; margin-bottom: 5px;">
-            <h4 class="mdl-cell mdl-cell--12-col">Tag filter</h4>
-        <!---->
-        <div id="tag-filter" class="tag-group">
-            <span class="tag-filter tag-cloud all" style="color:white; background-color:#ff5200; padding: 4px 9px;">Reset</span>
+{% if site.enableTags ==  true %} 
+    <div id="tag-filter" class="col-md-12 col-xs-12 tag-group">
+        <span class="tag-title">TAG Filter</span>
+        <span class="label tag-filter tag-cloud all">Reset</span>
         {% assign tagarray = site.tagarray %}
         {% for project in site.data.projects %}
             {% for tag in project.tags %}
@@ -22,12 +17,10 @@
                 {% capture tags %}{{ tags }}|{{ item }}{% endcapture %}
             {% endunless %}
         {% endfor %}
-        
+
         {% assign taglist = tags | split: '|' | sort %}
         {% for tag in taglist %}
-            <span class="tag-cloud tag-filter" data-tag="{{ tag | downcase }}" style="padding: 4px 9px; line-height: 2;">{{ tag }}</span>
+            <span class="label tag-filter tag-cloud" data-tag="{{ tag | downcase }}">{{ tag }}</span>
         {% endfor %}
-            </div>
-        </div>
     </div>
-</section>
+{% endif %}
