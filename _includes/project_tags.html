@@ -8,7 +8,7 @@
         {% if site.enableTags ==  true %} 
         <div id="tag-filter" class="tag-group">
             <span class="tag-highlight tag-title">TAG Filter</span>
-            <span class="label tag-filter tag-cloud all tag-highlight">Reset</span>
+            <span class="tag-filter tag-cloud all tag-highlight">Reset</span>
             {% assign tagarray = site.tagarray %}
             {% for project in site.data.projects %}
                 {% for tag in project.tags %}
