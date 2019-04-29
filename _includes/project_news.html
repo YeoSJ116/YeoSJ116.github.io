@@ -5,12 +5,12 @@
       {% for news in site.data.projectnews %}
       <div class="section__circle-container mdl-cell mdl-cell--1-col mdl-cell--1-col-phone" style="margin-right: 15px">
         <div class="section__circle-container__circle mdl-color--primary">
-          { news.head }
+          {{ news.head }}
         </div>
       </div>
       <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-        <h5>{ news.title }</h5>
-        { news.subtitle }<a href="{ news.url }">{ news.urlText }</a>.
+        <h5>{{ news.title }}</h5>
+        {{ news.subtitle }}<a href="{ news.url }">{{ news.urlText }}</a>.
       </div>
       {% endfor %}
     </div>
