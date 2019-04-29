@@ -1,14 +1,17 @@
+<link rel="stylesheet" href="{{ site.baseurl }}/static/css/imageTexting.css">
+
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
   <div class="mdl-card mdl-cell mdl-cell--12-col">
     <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
       <h4 class="mdl-cell mdl-cell--12-col">Recent activity</h4>
         {% for activity in site.data.recentactivity %}
         <div class="mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--3-col-phone" style="max-height: 280px">
-          <div class ="section--center mdl-grid mdl-grid--no-spacing" style="height: 146px;">
-            <image src ="{{ site.baseurl }}/static/img/recentActivity/{{ activity.image }}" style="height: 100%; width: auto;">
-              <div style="text-shadow: 1px 1px 2px; text-align: center; color: white; padding: auto; position: absolute;">{{ activity.title }}</div>
-            </image>
-          </div>
+            <div class="section--center mdl-grid mdl-grid--no-spacing img" style="height: 146px;">
+              <div class="content">
+                <h1>{{ activity.title }}</h1>
+              </div>
+              <div class="img-cover"></div>
+            </div>
         </div>
         {% endfor %}
     </div>
