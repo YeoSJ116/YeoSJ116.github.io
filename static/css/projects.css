@@ -63,7 +63,7 @@
 .tag-group .tag-cloud {
   margin: 0 2px;
   padding: 4px 8px;
-  cursor: hand;
+  cursor: pointer;
   line-height: 2;
 }
 .tag-group .tag-cloud .active {
