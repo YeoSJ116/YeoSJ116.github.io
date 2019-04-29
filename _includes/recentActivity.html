@@ -5,8 +5,8 @@
     <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
       <h4 class="mdl-cell mdl-cell--12-col">Recent activity</h4>
         {% for activity in site.data.recentactivity %}
-        <div class="mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--3-col-phone" style="max-height: 280px">
-            <div class="section--center mdl-grid mdl-grid--no-spacing img" style="height: 146px;">
+        <div class="mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--3-col-phone">
+            <div class="section--center mdl-grid mdl-grid--no-spacing img" style="height: 146px; background-image: url({{ site.baseurl }}/static/img/recentActivity/{{ activity.image }});">
               <div class="content">
                 <h1>{{ activity.title }}</h1>
               </div>
