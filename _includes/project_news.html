@@ -10,7 +10,8 @@
       </div>
       <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
         <h5>{{ news.title }}</h5>
-        {{ news.subtitle }}<a href="{ news.url }">{{ news.urlText }}</a>.
+        {{ news.subtitle }}<br/>
+        <a href="{{ news.url }}">{{ news.urlText }}</a>
       </div>
       {% endfor %}
     </div>
