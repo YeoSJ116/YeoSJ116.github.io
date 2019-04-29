@@ -5,17 +5,17 @@
 			console.log("Tags", selectedTags);
 			if( $(this).hasClass('all')){
 				selectedTags = [];
-				$('span.tag-filter').removeClass("tag-active");
-				$(this).addClass("tag-active");
+				$('span.tag-filter').removeClass("active");
+				$(this).addClass("active");
 				$('.project-item').showAll();
 			}else{
-				if( $(this).hasClass("tag-active") ){
+				if( $(this).hasClass("active") ){
 					selectedTags.removeTag( $(this).data('tag') );
-					$(this).removeClass("tag-active");
+					$(this).removeClass("active");
 				}
 				else{
 					selectedTags.addTag( $(this).data('tag') );
-					$(this).addClass("tag-active");
+					$(this).addClass("active");
 				}
 				$('.project-item').filterTags( selectedTags );
 			}
