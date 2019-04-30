@@ -10,9 +10,9 @@
     "layout": "project",
   },
   {
-    "text": "Applications",
-    "url": "/applications",
-    "layout": "applications",
+    "text": "Future",
+    "url": "/future",
+    "layout": "future",
   },
   {
     "text": "Spec",
