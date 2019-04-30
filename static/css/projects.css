@@ -69,10 +69,10 @@
 .tag-group .tag-cloud .tag-filter .tag-active {
   background: #ccc;
 }
-.tag-group .tag-title{ 
+.tag-title{ 
   text-shadow: 0px 0px 4px rgba(50, 30, 30, 1);
 }
-.tag-group .tag-highlight{ 
+.tag-highlight{ 
   color: white;
   padding: 4px 8px;
   background-color: orangered;
