@@ -64,9 +64,9 @@
   margin: 0 2px;
   padding: 4px 8px;
   cursor: pointer;
-  line-height: 2;
+  line-height: 2
 }
-.tag-group span.tags:tag-active {
+.tag-group .tag-active {
   background: red;/*#ccc;*/
 }
 .tag-group .tag-title{ 
