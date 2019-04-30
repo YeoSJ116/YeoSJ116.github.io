@@ -66,7 +66,7 @@
   cursor: pointer;
   line-height: 2;
 }
-.tag-group .tag-cloud .tag-active {
+.tag-group span.tags:tag-active {
   background: red;/*#ccc;*/
 }
 .tag-group .tag-title{ 
