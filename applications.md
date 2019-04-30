@@ -1,5 +1,5 @@
 ---
-layout: application
-title: Application
-permalink: /application/
+layout: applications
+title: Applications
+permalink: /applications/
 ---
