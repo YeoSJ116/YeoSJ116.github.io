@@ -67,7 +67,7 @@
   line-height: 2;
 }
 .tag-group .tag-cloud .tag-active {
-  background: #ccc;
+  background: red;/*#ccc;*/
 }
 .tag-group .tag-title{ 
   text-shadow: 0px 0px 4px rgba(50, 30, 30, 1);
