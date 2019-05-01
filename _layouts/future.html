@@ -1,31 +1,32 @@
 ---
 layout: default
 ---
-            <h4 class="mdl-cell mdl-cell--12-col">Tag filter</h4>
-<!-- start: Project card -->
-<section class="section--center mdl-cell--12-col mdl-grid mdl-grid--no-spacing" style="width: 100%">
-    <!-- max-width: 890px; -->
-    <div class="mdl-grid" style="padding: 8px 0px; margin: 0px -8px">
-    {% for i in site.data.projects %}
 
-        <div data-tags='{{ i.tags | jsonify | downcase }}' class="project-item mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone mdl-shadow--2dp" style="padding: 0px 10px;">
-            <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" class="project-img" style="padding: 0px; width: 100%; margin-top: 10px">
-                <image href="{{ site.baseurl }}/static/img/projects/{{ i.image }}_original.png" src="{{ site.baseurl }}/static/img/projects/{{ i.image }}.png" style="width: 100%; height: 100%;"/>
-            </div>
-
-            <a href="{{ i.url }}"><h4 style="margin: 13px 0px;">{{ i.name }}</h4></a>
-            {% if i.tags %} 
-            {% for j in i.tags %}
-            <span data-tag="{{ j | downcase }}">{{ j }}</span>
-            {% endfor %}
-            {% endif %}
-            <div id="project-footer" style="margin-bottom: 8px"> 
-                <span>{{ i.date }}</span>
-        </div>
-        </div>
-        {% endfor %}
+<!-- start: future card -->
+{% for future in site.data.future %}
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+  <header class="mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone">
+    <img src="https://avatars2.githubusercontent.com/u/33376555?s=460&v=4" alt="Profile image load failed" width="100%" height="auto" />
+  </header>
+  <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+    <div class="mdl-card__supporting-text">
+      <h4>YeoSJ116 Developer</h4>
+      I am a Windows programmer in C#.<br/>
+      I am interested not only in programming but also research in various fields.<br/>
+      <br/>
+      I hope you will benefit from my open source and technologies.<br/>
+      But if I have one thing in mind, I am not good at English. 
+      So if you have a problem with communication or open source has something worng, let me know and i will review it. Thanks for visit my blog ;)
     </div>
+    <div class="mdl-card__actions">
+      <a href="/spec" class="mdl-button">See my detail spec</a>
+    </div>
+  </div>
+  <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons">more_vert</i>
+  </button>
 </section>
+{% endfor %}
 <!-- end: Project card -->
 
 <!-- start: Project tag functions -->
