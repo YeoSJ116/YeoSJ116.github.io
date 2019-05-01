@@ -14,17 +14,10 @@
 		"tags": ["Arduino","Display","C#"]
 	},
 	{
-		"name": "Arduino UNO Keyboard program",
-		"image": "sparrowKBD",
-		"url": "https://github.com/YeoSJ116/Simple_Arduino_UNO_Key_Mapping-EN",
-		"date": "2017. 11. 1.",
+		"name": "Github blog",
+		"image": "null",
+		"url": "https://yeosj116.github.io",
+		"date": "2019. 04. 00.",
 		"tags": ["Arduino","UNO","Keyboard","C#"]
-	},
-	{
-		"name": "Arduino UNO Keyboard program",
-		"image": "sparrowKBD",
-		"url": "https://github.com/YeoSJ116/Simple_Arduino_UNO_Key_Mapping-EN",
-		"date": "2017. 11. 1.",
-		"tags": ["Testing","project","Keyboard","C#"]
 	}
 ]
