@@ -65,9 +65,12 @@
   padding: 4px 8px;
   cursor: pointer;
   line-height: 2;
+  border-radius: 12px;
+  background: #dedede;
 }
 .tag-group .tag-active {
-  background: #ccc;
+  background: #8e8e8e;
+  color: white;
 }
 .tag-group .tag-title{ 
   text-shadow: 0px 0px 4px rgba(50, 30, 30, 1);
