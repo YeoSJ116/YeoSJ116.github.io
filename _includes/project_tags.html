@@ -6,7 +6,7 @@
         {% if site.enableTags ==  true %}
 
         <div id="tag-filter" class="tag-group">
-            <span class="tag-filter tag-cloud mdl-js-ripple-effect all tag-highlight">TAG Filter Reset</span>
+            <button class="tag-filter tag-cloud mdl-js-ripple-effect all tag-highlight">TAG Filter Reset</button>
             {% assign tagarray = site.tagarray %}
             {% for project in site.data.projects %}
                 {% for tag in project.tags %}
@@ -25,7 +25,7 @@
 
             {% assign taglist = tags | split: '|' | sort %}
             {% for tag in taglist %}
-                <span class="tag-filter tag-cloud mdl-js-ripple-effect" data-tag="{{ tag | downcase }}">{{ tag }}</span>
+                <button class="tag-filter tag-cloud mdl-js-ripple-effect" data-tag="{{ tag | downcase }}">{{ tag }}</button>
             {% endfor %}
             </div>
         {% endif %}
