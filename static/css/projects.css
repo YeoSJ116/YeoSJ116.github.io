@@ -61,10 +61,10 @@
   margin: 20px;
 }
 .tag-group .tag-cloud {
-  margin: 0 2px;
+  margin: 0 3px 0 0;
   padding: 4px 8px;
   cursor: pointer;
-  line-height: 2;
+  line-height: 30px;
   border-radius: 12px;
   background: #dedede;
 }
@@ -77,6 +77,5 @@
 }
 .tag-group .tag-highlight{ 
   color: white;
-  padding: 4px 8px;
   background-color: orangered;
 }
