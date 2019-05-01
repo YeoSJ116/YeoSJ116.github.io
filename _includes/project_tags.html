@@ -2,9 +2,9 @@
 
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
     <div class="mdl-card mdl-cell mdl-cell--12-col">
-        <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-        <!---->
-        {% if site.enableTags ==  true %} 
+        <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin: 0px">
+        {% if site.enableTags ==  true %}
+
         <div id="tag-filter" class="tag-group">
             <span class="tag-filter tag-cloud all tag-highlight">TAG Filter Reset</span>
             {% assign tagarray = site.tagarray %}
