@@ -3,12 +3,12 @@
     "title": "Universal apps",
     "subtitle": "This project is only for universal students.",
     "start": "2019.04.15",
-    "prograss": "1/5",
+    "state": "Study"
   },
   {
     "title": "Github blog update",
     "subtitle": "Github blog update for simple service app",
     "start": "2019.04.23",
-    "prograss": "3/5",
+    "state": "Developing"
   }
 ]

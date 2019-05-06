@@ -1,5 +1,14 @@
 [
 	{
+		"title": "Github blog updated",
+		"head": "G",
+		"subtitle": "Plan for cleaner design and broader service support.",
+		"image": "1",
+		"urlText": "Project for fork scheduled",
+		"url": "https://YeoSJ116.github.io",
+		"date": "2019. 04. 24.",
+	},
+	{
 		"title": "Arduino UNO Keyboard program",
 		"head": "A",
 		"subtitle": "Version 2 lunched!",
@@ -9,12 +18,12 @@
 		"date": "2017. 11. 1.",
 	},
 	{
-		"title": "Arduino UNO Keyboard program",
+		"title": "Arduino dot matrix program",
 		"head": "A",
-		"subtitle": "Version 2 lunched!",
+		"subtitle": "Demonstration video released on Youtube.",
 		"image": "1",
-		"urlText": "See more",
-		"url": "https://github.com/YeoSJ116/Simple_Arduino_UNO_Key_Mapping-EN",
+		"urlText": "See video on Youtube",
+		"url": "https://www.youtube.com/watch?v=_TUJyRHIBNs",
 		"date": "2017. 11. 1.",
 	}
 ]

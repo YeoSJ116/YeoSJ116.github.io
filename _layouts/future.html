@@ -1,35 +1,38 @@
 ---
 layout: default
 ---
+<!-- Square card -->
+<style>
+.demo-card-square.mdl-card {
+  margin: 8px
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background: bottom right 15% no-repeat #46B6AC;
+}
+</style>
 
 <!-- start: future card -->
-{% for future in site.data.future %}
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-  <header class="mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone">
-    <img src="https://avatars2.githubusercontent.com/u/33376555?s=460&v=4" alt="Profile image load failed" width="100%" height="auto" />
-  </header>
-  <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-    <div class="mdl-card__supporting-text">
-      <h4>YeoSJ116 Developer</h4>
-      I am a Windows programmer in C#.<br/>
-      I am interested not only in programming but also research in various fields.<br/>
-      <br/>
-      I hope you will benefit from my open source and technologies.<br/>
-      But if I have one thing in mind, I am not good at English. 
-      So if you have a problem with communication or open source has something worng, let me know and i will review it. Thanks for visit my blog ;)
+<section class="section--center mdl-cell--12-col mdl-grid mdl-grid--no-spacing" style="width: 100%">
+  <div class="mdl-grid" style="padding: 8px 0px; width: 100%">
+  {% for future in site.data.future %}
+    <div class="demo-card-square mdl-card mdl-cell mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-shadow--2dp">
+      <div class="mdl-card__title mdl-card--expand">
+        <h2 class="mdl-card__title-text">{{ future.title }}</h2>
+      </div>
+      <div class="mdl-card__supporting-text" style="margin: 20px">
+        {{ future.subtitle }}
+      </div>
+      <div class="mdl-card__actions mdl-card--border" style="padding: 5px 20px">
+        <a class="mdl-card__supporting-text" style="margin: 0px">
+          Started at {{ future.start }}
+        </a><br/>
+        <a class="mdl-card__supporting-text" style="margin: 0px">
+          State is {{ future.state }}
+        </a>
+      </div>
     </div>
-    <div class="mdl-card__actions">
-      <a href="/spec" class="mdl-button">See my detail spec</a>
-    </div>
-  </div>
-  <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons">more_vert</i>
-  </button>
+  {% endfor %}
+  </dir>
 </section>
-{% endfor %}
 <!-- end: Project card -->
-
-<!-- start: Project tag functions -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="{{ site.baseurl }}/static/js/projects.js"></script>
-<!-- start: Project tag functions -->
