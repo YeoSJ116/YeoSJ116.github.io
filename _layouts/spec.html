@@ -3,6 +3,10 @@ layout: default
 ---
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
   <div class="post-content">
-    {{ content }}
+    {% for spec in site.data.specs %}
+    <h4>{{ spec.title }}</h4>
+    {% for subtitle in spec.subtitle %}
+    <li>{{ subtitle }}</li>
+    {% endfor %}
   </div>
 </section>
