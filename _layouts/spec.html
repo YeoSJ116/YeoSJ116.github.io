@@ -7,7 +7,7 @@ layout: default
     <h4>{{ spec.title }}</h4>
     <ul class="toc">{% for subtitle in spec.subtitle %}
     	<a>{{ subtitle }}</a>
-    </ul>{% endfor %}
+    {% endfor %}</ul>
     <br/>
     {% endfor %}
   </div>
