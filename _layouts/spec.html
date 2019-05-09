@@ -5,9 +5,9 @@ layout: default
   <div class="post-content">
     {% for spec in site.data.specs %}
     <h4>{{ spec.title }}</h4>
-    {% for subtitle in spec.subtitle %}
-    <li>{{ subtitle }}</li>
-    {% endfor %}
+    <ul class="toc">{% for subtitle in spec.subtitle %}
+    	<a>{{ subtitle }}</a>
+    </ul>{% endfor %}
     <br/>
     {% endfor %}
   </div>
