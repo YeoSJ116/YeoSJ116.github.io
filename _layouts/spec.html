@@ -6,10 +6,11 @@ layout: default
 		<h4>My skills</h4>
 	</div>
     {% for skill in site.data.skills %}
-    <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">
-    	<div style="margin: 10px 10px 5px 10px;">
-    		<h4 style="margin: 10px 0px 0px;">{{ skill.title }}</h4>
-    		<h6>{{skill.subtitle}}</h6>
+    <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone"
+	 style="border-bottom: 1px solid rgba(0, 0, 0, 0.12);">
+    	<div style="margin: 10px 10px 0px 10px;">
+    		<h4 style="margin: 0px;">{{ skill.title }}</h4>
+    		<h6 style="margin: 0px;">{{skill.subtitle}}</h6>
     		<div style="width: auto; background: {{site.main_color}};">
     			<div style="background: {{site.sub_color}}; height: 5px; width: calc({{skill.value}}%)"></div>
     		</div>
