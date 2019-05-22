@@ -32,8 +32,6 @@
 
 	$.fn.extend({
 	  filterTags: function(tagNames) { //실질적으로 프로젝트 표시 유무를 판단하는 함수
-	  	//if(tagNames.length == 0) return this.showAll();
-
 	    return this.each(function() {
 	    	var unfound = $( tagNames ).not( JSON.parse( $(this).attr('data-tags'))).get(); //프로젝트 테그를 제외한 선택한 테그들
 	    	console.log("unfound", unfound, itemTagArray.length);
