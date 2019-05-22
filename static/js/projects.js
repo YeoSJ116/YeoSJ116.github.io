@@ -5,7 +5,7 @@
 			if( $(this).hasClass('all')){ //방금 클릭한 태그가 초기화 버튼인가
 				selectedTags = []; //선택된 태그 목록을 모두 비움
 				$('span.tag-filter').removeClass("tag-active"); //테그 버튼 모두 비활성화
-				//$('.project-item').showAll(); //숨겨진 프로젝트 모두 표시
+				$('.project-item').showAll(); //숨겨진 프로젝트 모두 표시
 			}else{
 				if( $(this).hasClass("tag-active") ){ //취소 할려고 누른 경우
 					selectedTags.removeTag( $(this).data('tag') ); //배열에서 테그 제거
@@ -32,7 +32,7 @@
 
 	$.fn.extend({
 	  filterTags: function(tagNames) { //실질적으로 프로젝트 표시 유무를 판단하는 함수
-	  	if(tagNames.length == 0) return this.showAll();
+	  	//if(tagNames.length == 0) return this.showAll();
 
 	    return this.each(function() {
 	    	var itemTagArray = JSON.parse( $(this).attr('data-tags') ); //프로젝트 테그 값 불러오기
