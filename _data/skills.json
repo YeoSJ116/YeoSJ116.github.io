@@ -2,31 +2,31 @@
 	{
 		"title": "C# Winform",
 		"subtitle":"Fluent",
-		"Value": "70",
+		"value": "70",
 	},
 	{
 		"title": "C# WPF",
 		"subtitle":"Middle",
-		"Value": "52",
+		"value": "52",
 	},
 	{
 		"title": "C# UWP",
 		"subtitle":"Beginner",
-		"Value": "30",
+		"value": "30",
 	},
 	{
 		"title": "Arduino",
 		"subtitle":"Beginner",
-		"Value": "30",
+		"value": "30",
 	},
 	{
 		"title": "FPGA",
 		"subtitle":"Study",
-		"Value": "5",
+		"value": "5",
 	},
 	{
 		"title": "PCB",
 		"subtitle":"Study",
-		"Value": "30",
+		"value": "30",
 	},
 ]
