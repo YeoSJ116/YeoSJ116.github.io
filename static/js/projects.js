@@ -1,12 +1,12 @@
 (function($){
 	$(document).ready(function(){
-		var selectedTags = [];
-		$(document).on('click','.tag-filter',function(){
-			console.log("Tags", selectedTags);
-			if( $(this).hasClass('all')){
-				selectedTags = [];
-				$('span.tag-filter').removeClass("tag-active");
-				$(this).addClass("tag-active");
+		var selectedTags = []; //사용자가 선택한 태그
+		$(document).on('click','.tag-filter',function(){ //상단 태그를 마우스로 클릭 할 때
+			console.log("Tags", selectedTags); //선택된 태그 콘솔 표시
+			if( $(this).hasClass('all')){ //방금 클릭한 태그가 초기화 버튼인가
+				selectedTags = []; //선택된 태그 목록을 모두 비움
+				//$('span.tag-filter').removeClass("tag-active");
+				//$(this).addClass("tag-active");
 				$('.project-item').showAll();
 			}else{
 				if( $(this).hasClass("tag-active") ){
