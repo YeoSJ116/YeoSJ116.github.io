@@ -3,11 +3,11 @@ layout: default
 ---
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 	<div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-		<h4>My skills</h4>
+		<h4 style="padding-left: 25px">My skills</h4>
 	</div>
     {% for skill in site.data.skills %}
     <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone"
-	 style="border-bottom: 1px solid rgba(0, 0, 0, 0.12);">
+	 style="padding: 0px 15px; border-bottom: 1px solid rgba(0, 0, 0, 0.12);">
     	<div style="margin: 10px 10px 5px 10px;">
     		<h4 style="margin: 0px;">{{ skill.title }}</h4>
     		<h6 style="margin: 0px;">{{ skill.subtitle }}</h6>
