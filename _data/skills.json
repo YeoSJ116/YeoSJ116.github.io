@@ -6,18 +6,27 @@
 	},
 	{
 		"title": "C# WPF",
+		"subtitle":"Middle",
 		"Value": "52";
 	},
 	{
 		"title": "C# UWP",
+		"subtitle":"Beginner",
 		"Value": "30";
 	},
 	{
 		"title": "Arduino",
+		"subtitle":"Beginner",
 		"Value": "30";
 	},
 	{
 		"title": "FPGA",
+		"subtitle":"Study",
+		"Value": "5";
+	},
+	{
+		"title": "PCB",
+		"subtitle":"Study",
 		"Value": "30";
 	},
 ]
