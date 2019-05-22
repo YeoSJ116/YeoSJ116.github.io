@@ -5,9 +5,8 @@
 			console.log("Tags", selectedTags); //선택된 태그 콘솔 표시
 			if( $(this).hasClass('all')){ //방금 클릭한 태그가 초기화 버튼인가
 				selectedTags = []; //선택된 태그 목록을 모두 비움
-				//$('span.tag-filter').removeClass("tag-active");
-				//$(this).addClass("tag-active");
-				$('.project-item').showAll();
+				$('span.tag-filter').removeClass("tag-active"); //테그 버튼 모두 비활성화
+				$('.project-item').showAll(); //숨겨진 프로젝트 모두 표시
 			}else{
 				if( $(this).hasClass("tag-active") ){
 					selectedTags.removeTag( $(this).data('tag') );
