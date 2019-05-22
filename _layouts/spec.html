@@ -7,9 +7,9 @@ layout: default
     {% for skill in site.data.skills %}
     <div class="mdl-card__title mdl-card--expand">
     	<h4 class="mdl-card__title-text">{{ skill.title }}</h4>
+    	<br/>{{skill.subtitle}}
     </div>
     <div class="mdl-card__supporting-text">
-    	{{ subtitle }}<br/>
     	<div style="height: 5px; width: auto; margin: 5,0; background: gray;"></div>
     </div>
     {% endfor %}
