@@ -38,7 +38,7 @@
 	    	var itemTagArray = JSON.parse( $(this).attr('data-tags') ); //프로젝트 테그 값 불러오기
 	    	var unfound = $( tagNames ).not( itemTagArray ).get(); //프로젝트 테그를 제외한 선택한 테그들
 	    	console.log("unfound", unfound, itemTagArray.length);
-	    	if( unfound.length == tagNames.length ){
+	    	if( unfound.length > 0 ){
 				$(this).addClass('not-show'); //테그 불일치로 표시 안함
 			}else{
 				$(this).removeClass('not-show'); //테그 일치로 표시함
