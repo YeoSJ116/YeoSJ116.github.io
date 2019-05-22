@@ -1,0 +1,23 @@
+[
+	{
+		"title": "C# Winform",
+		"subtitle":"Fluent",
+		"Value": "70";
+	},
+	{
+		"title": "C# WPF",
+		"Value": "52";
+	},
+	{
+		"title": "C# UWP",
+		"Value": "30";
+	},
+	{
+		"title": "Arduino",
+		"Value": "30";
+	},
+	{
+		"title": "FPGA",
+		"Value": "30";
+	},
+]
