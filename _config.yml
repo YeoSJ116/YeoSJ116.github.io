@@ -23,3 +23,6 @@ per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
 gems: [jekyll-paginate, jekyll-gist]
+
+main_color: "#3f51b5"
+sub_color: "#303f9f"
