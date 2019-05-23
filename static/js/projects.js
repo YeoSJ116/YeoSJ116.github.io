@@ -34,7 +34,7 @@
 	  filterTags: function(tagNames) { //실질적으로 프로젝트 표시 유무를 판단하는 함수
 	    return this.each(function() {
 	    	var unfound = $( tagNames ).not( JSON.parse( $(this).attr('data-tags'))).get(); //프로젝트 테그를 제외한 선택한 테그들
-	    	console.log("unfound", unfound, itemTagArray.length);
+	    	console.log("unfound", unfound, unfound.length);
 	    	if( unfound.length > 0 ){ //하나라도 조건 만족 못 할 경우
 				$(this).addClass('not-show'); //테그 불일치로 표시 안함
 			}else{
