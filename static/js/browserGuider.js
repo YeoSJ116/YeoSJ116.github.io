@@ -25,7 +25,7 @@
 		console.log("app name is", appName);
 		console.log("Your browser is", browser);
 
-		if(browser == "msie")
+		if(browser != "chrome")
 			$('.browserGuider').removeClass("not-show");
 	});
 })(jQuery);
