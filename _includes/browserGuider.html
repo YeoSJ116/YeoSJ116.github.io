@@ -1,4 +1,4 @@
-<script src="http://code.jquery.com/jquery-1.4.4.min.js">
+<script>
 	$(document).ready(function(){
 		if(getBrowserType() == "MSIE")
 			$('.browserGuider').removeClass("not-show");
@@ -24,7 +24,8 @@
 		console.log("Your browser is ", browser); 
 		return browser;
 	}
-</script>
+</script>(jQuery)
+
 <style type="text/css">
 	browserGuider.not-show {
 		display: none;
