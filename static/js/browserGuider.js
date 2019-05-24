@@ -1,10 +1,5 @@
 (function($){
 	$(document).ready(function(){
-		if(getBrowserType() == "MSIE")
-			$('.browserGuider').removeClass("not-show");
-	});
-
-	$.getBrowserType = function(){
 		var browser = "Unknown";
 		var appName = navigator.userAgent.toLowerCase();
 		if(navigator.appName.charAt(0) == "n"){ //Netscape
@@ -23,7 +18,9 @@
 			browser = "MSIE";
 		else if(navigator.appName.charAt(0) == "o")
 			browser = "Opera";
-		console.log("Your browser is ", browser); 
-		return browser;
-	};
+		console.log("Your browser is ", browser);
+
+		if(browser == "MSIE")
+			$('.browserGuider').removeClass("not-show");
+	});
 })(jQuery);
