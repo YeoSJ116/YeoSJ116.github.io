@@ -1,8 +1,10 @@
 <script>
-	$(document).ready(function(){
-		if(getBrowserType() == "MSIE")
-			$('.browserGuider').removeClass("not-show");
-	}(jQuery)
+	(function($){
+		$(document).ready(function(){
+			if(getBrowserType() == "MSIE")
+				$('.browserGuider').removeClass("not-show");
+	})(jQuery)
+
 	function getBrowserType(){
 		var browser = "Unknown";
 		if(navigator.appName.charAt(0) == "N"){ //Netscape
