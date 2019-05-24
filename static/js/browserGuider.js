@@ -19,7 +19,9 @@
 			browser = "msie";
 		else if(appName == "opera")
 			browser = "opera";
-		console.log("Your browser is ", browser);
+		console.log("user agent is", userAgent);
+		console.log("app name is", appName);
+		console.log("Your browser is", browser);
 
 		if(browser == "msie")
 			$('.browserGuider').removeClass("not-show");
