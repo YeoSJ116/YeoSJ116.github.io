@@ -24,6 +24,6 @@
 			browser = "Opera";
 		console.log("Your browser is ", browser); 
 		return browser;
-	    });
+	    }});
 	});
 })(jQuery)
