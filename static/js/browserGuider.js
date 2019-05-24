@@ -6,8 +6,8 @@
 		if(appName. == "netscape"){ //Netscape
 			if(userAgent.indexOf("chrome") != -1)
 				browser = "chrome";
-			else if(userAgent.indexOf("friefox") != -1)
-				browser = "friefox";
+			else if(userAgent.indexOf("firefox") != -1)
+				browser = "firefox";
 			else if(userAgent.indexOf("safari") != -1)
 				browser = "safari";
 			else if(userAgent.indexOf("opera") != -1)
