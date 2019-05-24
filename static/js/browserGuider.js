@@ -6,21 +6,22 @@
 
 	Array.prototype.getBrowserType = function() {
 		var browser = "Unknown";
-		if(navigator.appName.charAt(0) == "N"){ //Netscape
-			if(navigator.userAgent.indexOf("Chrome") != -1)
+		var appName = navigator.userAgent.toLowerCase();
+		if(navigator.appName.charAt(0) == "n"){ //Netscape
+			if(navigator.userAgent.indexOf("chrome") != -1)
 				browser = "Chrome";
-			else if(navigator.userAgent.indexOf("Friefox") != -1)
+			else if(navigator.userAgent.indexOf("friefox") != -1)
 				browser = "Friefox";
-			else if(navigator.userAgent.indexOf("Safari") != -1)
+			else if(navigator.userAgent.indexOf("safari") != -1)
 				browser = "Safari";
-			else if(navigator.userAgent.indexOf("Opera") != -1)
+			else if(navigator.userAgent.indexOf("opera") != -1)
 				browser = "Opera";
-			else if(navigator.userAgent.indexOf("Trident") != -1)
+			else if(navigator.userAgent.indexOf("trident") != -1)
 				browser = "MSIE"; // IE11 above (Trident)
 		}
-		else if(navigator.appName.charAt(0) == "M")
+		else if(navigator.appName.charAt(0) == "m")
 			browser = "MSIE";
-		else if(navigator.appName.charAt(0) == "O")
+		else if(navigator.appName.charAt(0) == "o")
 			browser = "Opera";
 		console.log("Your browser is ", browser); 
 		return browser;
