@@ -1,5 +1,13 @@
 (function($){
 	$(document).ready(function(){
+		if($.browser.chrome) {
+			alert(1);
+		} else if ($.browser.mozilla) {
+			alert(2);
+		} else if ($.browser.msie) {
+			alert(3);
+		}
+
 		var browser = "Unknown";
 		var appName = navigator.userAgent.toLowerCase();
 		if(navigator.appName.charAt(0) == "n"){ //Netscape
