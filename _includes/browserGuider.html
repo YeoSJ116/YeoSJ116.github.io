@@ -2,7 +2,7 @@
 	$(document).ready(function(){
 		if(getBrowserType() == "MSIE")
 			$('.browserGuider').removeClass("not-show");
-	}
+	}(jQuery)
 	function getBrowserType(){
 		var browser = "Unknown";
 		if(navigator.appName.charAt(0) == "N"){ //Netscape
@@ -24,7 +24,7 @@
 		console.log("Your browser is ", browser); 
 		return browser;
 	}
-</script>(jQuery)
+</script>
 
 <style type="text/css">
 	browserGuider.not-show {
