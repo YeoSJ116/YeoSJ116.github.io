@@ -1,9 +1,8 @@
 (function($){
 	$(document).ready(function(){
-		alert("run1");
-		//f(getBrowserType() == "MSIE")
+		var browser = getBrowserType();
+		if(browser == "MSIE")
 			$('.browserGuider').removeClass("not-show");
-		alert("run");
 	});
 
 	$.fn.extend({
