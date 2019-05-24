@@ -41,6 +41,13 @@
 				$(this).removeClass('not-show'); //테그 일치로 표시함
 			}
 	    });
+	  },
+	  showAll: function(){
+	  	return this.each(function() {
+			if($(this).hasClass('not-show')){
+				$(this).removeClass('not-show');
+			}
+	    });
 	  }
 	});
 })(jQuery)
