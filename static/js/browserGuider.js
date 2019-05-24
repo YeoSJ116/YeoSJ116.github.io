@@ -3,16 +3,16 @@
 		var browser = "Unknown";
 		var userAgent = navigator.userAgent.toLowerCase();
 		var appName = navigator.appName.toLowerCase();
-		if(appName == "netscape"){ //Netscape
-			if(userAgent == "chrome")
+		if(appName. == "netscape"){ //Netscape
+			if(userAgent.indexOf("chrome") != -1)
 				browser = "chrome";
-			else if(userAgent == "friefox")
+			else if(userAgent.indexOf("friefox") != -1)
 				browser = "friefox";
-			else if(userAgent == "safari")
+			else if(userAgent.indexOf("safari") != -1)
 				browser = "safari";
-			else if(userAgent == "opera")
+			else if(userAgent.indexOf("opera") != -1)
 				browser = "opera";
-			else if(userAgent == "trident")
+			else if(userAgent.indexOf("msie") != -1)
 				browser = "msie"; // IE11 above (Trident)
 		}
 		else if(appName == "msie")
