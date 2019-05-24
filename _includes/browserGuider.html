@@ -1,5 +1,5 @@
-<script type="text/javascript">
-	function browserGuider(){
+<script src="http://code.jquery.com/jquery-1.4.4.min.js">
+	$(document).ready(function(){
 		if(getBrowserType() == "MSIE")
 			$('.browserGuider').removeClass("not-show");
 	}
@@ -31,7 +31,7 @@
 	}	
 </style>
 
-<section onload="browserGuider()" class="browserGuider section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp browserGuider not-show">
+<section class="browserGuider section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp browserGuider not-show">
     <div class="mdl-cell mdl-cell--12-col">
     	Notice: This browser will not support perfectly for this web site :(<br/>
     	I recommand you using chrome web browser.
