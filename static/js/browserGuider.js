@@ -4,9 +4,8 @@
 			$('.browserGuider').removeClass("not-show");
 	});
 
-	$.fn.extend({
-		getBrowserType: function() { //실질적으로 프로젝트 표시 유무를 판단하는 함수
-	    var browser = "Unknown";
+	Array.prototype.getBrowserType = function() {
+		var browser = "Unknown";
 		if(navigator.appName.charAt(0) == "N"){ //Netscape
 			if(navigator.userAgent.indexOf("Chrome") != -1)
 				browser = "Chrome";
@@ -25,6 +24,5 @@
 			browser = "Opera";
 		console.log("Your browser is ", browser); 
 		return browser;
-	    }
-	});
+	}
 })(jQuery)
