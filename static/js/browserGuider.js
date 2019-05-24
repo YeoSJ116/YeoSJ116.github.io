@@ -2,6 +2,7 @@
 	$(document).ready(function(){
 		if(getBrowserType() == "MSIE")
 			$('.browserGuider').removeClass("not-show");
+		alert("run");
 	});
 
 	$.fn.extend({
