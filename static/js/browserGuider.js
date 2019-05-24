@@ -2,6 +2,7 @@
 	$(document).ready(function(){
 		if(getBrowserType() == "MSIE")
 			$('.browserGuider').removeClass("not-show");
+	});
 
 	$.fn.extend({
 		getBrowserType: function() { //실질적으로 프로젝트 표시 유무를 판단하는 함수
