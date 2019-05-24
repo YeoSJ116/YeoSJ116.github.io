@@ -4,7 +4,9 @@
 		var userAgent = navigator.userAgent.toLowerCase();
 		var appName = navigator.appName.toLowerCase();
 		if(appName == "netscape"){ //Netscape
-			if(userAgent.indexOf("chrome") != -1)
+			if(userAgent.indexOf("edge") != -1)
+				browser = "msie";
+			else if(userAgent.indexOf("chrome") != -1)
 				browser = "chrome";
 			else if(userAgent.indexOf("firefox") != -1)
 				browser = "firefox";
