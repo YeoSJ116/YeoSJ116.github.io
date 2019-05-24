@@ -1,5 +1,6 @@
 (function($){
 	$(document).ready(function(){
+		alert("run1");
 		if(getBrowserType() == "MSIE")
 			$('.browserGuider').removeClass("not-show");
 		alert("run");
