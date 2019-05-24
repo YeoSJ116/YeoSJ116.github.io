@@ -12,7 +12,7 @@
 				browser = "safari";
 			else if(userAgent.indexOf("opera") != -1)
 				browser = "opera";
-			else if(userAgent.indexOf("msie") != -1)
+			else if(userAgent.indexOf("trident") != -1)
 				browser = "msie"; // IE11 above (Trident)
 		}
 		else if(appName == "msie")
