@@ -1,11 +1,14 @@
 title       : YeoSJ116's Blog
 description : My Personal Blog
 
-author  : YeoSJ116
-logo    : /YeoSJ116.github.io/static/img/avatar.png
-github  : https://github.com/YeoSJ116
-about   : Beginner developer (Korean Student)
-locale  : "ko_KR" #ICU Locale
+author    : YeoSJ116
+logo      : /YeoSJ116.github.io/static/img/avatar.png
+github    : https://github.com/YeoSJ116
+naverBlog : https://blog.naver.com/yeosj116
+youtube   : https://www.youtube.com/channel/UCUgrvzrw-JA-uz-5PDX3EZw?view_as=subscriber
+contect   : https://YeoSJ116.github.io/#NotYet
+about     : Beginner developer (Korean Student)
+locale    : "ko_KR" #ICU Locale
 
 url         : "https://YeoSJ116.github.io/"
 baseurl     : "https://YeoSJ116.github.io"
@@ -26,3 +29,4 @@ gems: [jekyll-paginate, jekyll-gist]
 
 main_color: "#3f51b5"
 sub_color: "#303f9f"
+
