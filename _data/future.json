@@ -12,15 +12,11 @@
     "state": "Developing"
   },
   {
-    "title": "Arduino dot matrix open source",
-    "subtitle": "I decided open the dot matrix program",
-    "start": "2019.06.01",
-    "state": "Remake for open source"
-  },
-  {
     "title": "Arduino dot matrix simulator",
     "subtitle": "It isn't open source and just plan",
     "start": "2019.06.01",
     "state": "Uncertain"
   }
 ]
+//start\title\subtitle\state
+//2019.06.01\Arduino dot matrix open source\I decided open the dot matrix program\Remake for open source
