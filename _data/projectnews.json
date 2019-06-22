@@ -1,5 +1,14 @@
 [
 	{
+		"title": "Arduino dot matrix program open-source",
+		"head": "O",
+		"subtitle": "Released on github",
+		"image": "1",
+		"urlText": "View source code",
+		"url": "https://github.com/YeoSJ116/Arduino_simple_16x16_Dot_Matrix_code_generator_DEMO",
+		"date": "2019. 06. 22.",
+	},
+	{
 		"title": "Github blog updated",
 		"head": "G",
 		"subtitle": "Plan for cleaner design and broader service support.",
