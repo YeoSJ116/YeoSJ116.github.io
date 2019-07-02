@@ -34,4 +34,14 @@
 		"subtitle": "Study",
 		"value": "50",
 	},
+	{
+		"title": "Sketch up",
+		"subtitle": "Middle",
+		"value": "70",
+	},
+	{
+		"title": "Diptrace",
+		"subtitle": "Beginner",
+		"value": "30",
+	},
 ]
