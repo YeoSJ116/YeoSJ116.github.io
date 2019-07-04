@@ -8,7 +8,7 @@
 	},
 	{
 		"name": "Arduino dot matrix display program",
-		"image": "null",
+		"image": "dotmetrixCodeGenerator",
 		"url": "https://github.com/YeoSJ116/Arduino_simple_16x16_Dot_Matrix_code_generator_DEMO",
 		"date": "2018. 3. 12.",
 		"tags": ["Arduino","Display","C#"]
