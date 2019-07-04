@@ -10,6 +10,11 @@
     "layout": "project",
   },
   {
+    "text": "Download",
+    "url": "/downloads",
+    "layout": "downloads",
+  },
+  {
     "text": "Future",
     "url": "/future",
     "layout": "future",
