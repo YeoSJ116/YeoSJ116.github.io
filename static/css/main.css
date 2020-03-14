@@ -20,10 +20,17 @@ will be correctly compiled during `gulp serve` and `gulp`
  */
 
 html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: Arial, Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
 }
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
 .mdl-demo .mdl-layout__header-row {
   padding-left: 40px;
 }
