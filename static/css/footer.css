@@ -19,6 +19,7 @@
   -ms-flex: 1;
   flex: 1;
   text-align: center;
+  max-width: 940px;
 }
 .cards-grid-container {
   display: -ms-grid;
@@ -106,20 +107,17 @@
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
-.cards-link-box {
+.cards-button-box {
+  text-align: center;
   height: NaN%;
   margin-right: auto;
   margin-left: auto;
   color: #333;
   text-decoration: none;
 
-  -ms-grid-column: span 1;
   grid-column-start: span 1;
-  -ms-grid-column-span: 1;
   grid-column-end: span 1;
-  -ms-grid-row: span 1;
   grid-row-start: span 1;
-  -ms-grid-row-span: 1;
   grid-row-end: span 1;
 }
 .cards-title {
@@ -407,9 +405,6 @@
     -ms-grid-row-align: stretch;
     align-self: stretch;
   }
-  .button {
-    width: auto;
-  }
 } /*Mobile landscape style*/
 @media screen and (max-width: 991px) {
   .footer {
@@ -429,9 +424,6 @@
   .cards-image-mask {
     overflow: hidden;
   }
-  .button {
-    text-align: center;
-  }
   .business-card {
     max-width: 460px;
   }
@@ -442,15 +434,13 @@
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
   }
-  .cards-link-box {
+  .cards-button-box {
     width: auto;
     height: 0%;
     grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
-    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
   }
   .business-card-links {
