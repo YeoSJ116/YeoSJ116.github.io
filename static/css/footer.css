@@ -20,6 +20,7 @@
   flex: 1;
   text-align: center;
   max-width: 940px;
+  margin: auto;
 }
 .cards-grid-container {
   display: -ms-grid;
@@ -110,12 +111,10 @@
 .cards-button-box {
   text-align: center;
   height: NaN%;
-  margin-right: auto;
-  margin-left: auto;
   color: #333;
   text-decoration: none;
 
-  grid-column-start: span 1;
+  grid-column-start: span 7;
   grid-column-end: span 1;
   grid-row-start: span 1;
   grid-row-end: span 1;
