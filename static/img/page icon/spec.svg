@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="spec.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="10.265625"
+     inkscape:cx="15.131439"
+     inkscape:cy="28.714065"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1440"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid815" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="grid"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-284.29999)"
+     style="opacity:0.98">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.00000024;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M 23.96875 7.9980469 A 1.0001001 1.0001001 0 0 0 23.591797 8.0859375 L 5.5957031 16.087891 A 1.0001001 1.0001001 0 0 0 5.5957031 17.912109 L 23.591797 25.914062 A 1.0001001 1.0001001 0 0 0 24.359375 25.935547 L 37.359375 20.931641 A 1.0001001 1.0001001 0 1 0 36.644531 19.0625 L 24.027344 23.919922 L 8.4589844 16.996094 L 24.027344 10.080078 L 36.644531 14.9375 A 1.0001001 1.0001001 0 1 0 37.359375 13.070312 L 24.359375 8.0644531 A 1.0001001 1.0001001 0 0 0 23.96875 7.9980469 z M 23.998047 16 A 1.000252 1.000252 0 1 0 23.998047 18 L 40.998047 18 L 40.998047 24.998047 A 1.0002463 1.0002463 0 0 0 43 24.998047 L 43 17.003906 A 1.0001001 1.0001001 0 0 0 42.003906 16 L 23.998047 16 z M 36.982422 22.982422 A 1.0001001 1.0001001 0 0 0 36.001953 24.001953 L 36.001953 32.357422 L 23.998047 37.902344 L 12.003906 32.357422 L 12.003906 26.5625 L 23.578125 31.908203 A 1.0001001 1.0001001 0 0 0 24.404297 31.916016 L 33.402344 27.914062 A 1.0013641 1.0013641 0 1 0 32.591797 26.083984 L 24.005859 29.900391 L 11.419922 24.089844 A 1.0001001 1.0001001 0 0 0 10.001953 24.998047 L 10.001953 33 A 1.0001001 1.0001001 0 0 0 10.578125 33.908203 L 23.578125 39.910156 A 1.0001001 1.0001001 0 0 0 24.419922 39.910156 L 37.417969 33.908203 A 1.0001001 1.0001001 0 0 0 38.001953 33 L 38.001953 24.001953 A 1.0001001 1.0001001 0 0 0 36.982422 22.982422 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,284.29999)"
+       id="path835" />
+  </g>
+</svg>
