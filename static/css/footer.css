@@ -20,12 +20,16 @@
   cursor: pointer;
   border-radius: 5px;
 }
-
+a.unline{
+  text-decoration: non;
+}
 img.gray-black{
   filter: contrast(60%);
+  color: #333333;
 }
 img.gray-black:hover{
   filter: contrast(100%);
+  color: black;
 }
 .cards-section {
   padding-top: 40px;
@@ -60,35 +64,13 @@ img.gray-black:hover{
   text-align: left;
 }
 .cards-image-mask {
-  display: block;
-  overflow: hidden;
   width: 100px;
   height: 100px;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
-  border-radius: 0%;
+  margin: auto;
 }
 .cards-image {
-  position: static;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  display: inline-block;
-  overflow: visible;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: 50% 50%;
-  object-position: 50% 50%;
-
-  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
 }
 .text-block {
   margin-top: 20px;
@@ -194,7 +176,7 @@ img.gray-black:hover{
   height: 72px;
 }
 .business-card-links-image {
-  width: auto;
+  margin: auto;
 }
 .business-card-links-box-mobile-disable {
   width: 72px;
