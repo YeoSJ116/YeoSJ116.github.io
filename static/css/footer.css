@@ -21,7 +21,7 @@
   border-radius: 5px;
 }
 .unline {
-  text-decoration: non;
+  text-decoration: none;
 }
 .stretch{
   width: 100%;
@@ -67,14 +67,10 @@
   grid-template-rows: auto;
   text-align: left;
 }
-.cards-image-mask {
+.cards-image-box {
   width: 100px;
   height: 100px;
   margin: auto;
-}
-.cards-image {
-  width: 100%;
-  height: 100%;
 }
 .text-block {
   margin-top: 20px;
@@ -314,7 +310,7 @@
     -ms-grid-rows: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
   }
-  .cards-image-mask {
+  .cards-image-box {
     float: left;
     clear: none;
   }
@@ -422,7 +418,7 @@
     -o-object-fit: fill;
     object-fit: fill;
   }
-  .cards-image-mask {
+  .cards-image-box {
     overflow: hidden;
   }
   .business-card {
