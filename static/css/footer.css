@@ -20,14 +20,18 @@
   cursor: pointer;
   border-radius: 5px;
 }
-.unline{
+.unline {
   text-decoration: non;
+}
+.stretch{
+  width: 100%;
+  height: 100%;
 }
 .gray-black{
   filter: contrast(60%);
   color: #333333;
 }
-.gray-black:hover{
+.gray-black:hover {
   filter: contrast(100%);
   color: black;
 }
@@ -135,7 +139,7 @@
   font-weight: 700;
   text-align: left;
 }
-.business-card-content {
+.business-card-paragraph {
   margin: 10px 0px 16px;
   font-size: 18px;
   line-height: 25px;
@@ -174,9 +178,6 @@
 .business-card-links-box {
   width: 72px;
   height: 72px;
-}
-.business-card-links-image {
-  margin: auto;
 }
 .business-card-links-box-mobile-disable {
   width: 72px;
@@ -340,7 +341,7 @@
     font-size: 24px;
     text-align: center;
   }
-  .business-card-content {
+  .business-card-paragraph {
     display: none;
   }
   .business-card-links {
