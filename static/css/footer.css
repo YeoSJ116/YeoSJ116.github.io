@@ -23,17 +23,25 @@
 .unline {
   text-decoration: none;
 }
-.stretch{
+.stretch {
   width: 100%;
   height: 100%;
 }
-.gray-black{
+.gray-black {
   filter: contrast(60%);
   color: #333333;
 }
 .gray-black:hover {
   filter: contrast(100%);
   color: black;
+}
+.gray-white {
+  filter: contrast(0%) brightness(1.3);
+  color: #a6a6a6;
+}
+.gray-white:hover {
+  filter: contrast(0%) brightness(2);
+  color: white;
 }
 .cards-section {
   padding-top: 40px;
