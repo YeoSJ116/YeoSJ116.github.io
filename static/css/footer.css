@@ -28,8 +28,8 @@
   height: 100%;
 }
 .gray-black {
-  filter: contrast(60%);
-  color: #333333;
+  filter: contrast(40%);
+  color: #4c4c4c;
 }
 .gray-black:hover {
   filter: contrast(100%);
