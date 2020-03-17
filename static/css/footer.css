@@ -20,14 +20,14 @@
   cursor: pointer;
   border-radius: 5px;
 }
-a.unline{
+.unline{
   text-decoration: non;
 }
-img.gray-black{
+.gray-black{
   filter: contrast(60%);
   color: #333333;
 }
-img.gray-black:hover{
+.gray-black:hover{
   filter: contrast(100%);
   color: black;
 }
