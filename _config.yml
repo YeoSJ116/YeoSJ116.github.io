@@ -6,7 +6,7 @@ logo      : /YeoSJ116.github.io/static/img/avatar.png
 github    : https://github.com/YeoSJ116
 naverBlog : https://blog.naver.com/yeosj116
 youtube   : https://www.youtube.com/channel/UCUgrvzrw-JA-uz-5PDX3EZw
-contect   : {{ site.baseurl }}/#NotYet
+contect   : /#NotYet
 about     : Beginner developer (Korean Student)
 locale    : "ko_KR" #ICU Locale
 
